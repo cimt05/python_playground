@@ -23,5 +23,5 @@ def login(username, password):
         users = [line.split('|') for line in user_buf.split('\n')]
         return [username, password] in users
     except IOError:
-        print("I can't authenticate you.")
+        print "I can't authenticate you."
         return False
