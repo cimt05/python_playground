@@ -4,3 +4,4 @@ tags
 .coverage
 pylint.out
 nosetests.xml
+coverage.xml
